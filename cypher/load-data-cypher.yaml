@@ -1,0 +1,13 @@
+
+
+```cypher
+UNWIND range(1,100) AS id
+CREATE (:User {id: id});
+
+UNWIND range(1,100) AS id
+CREATE (:Product {id: id});
+
+UNWIND range(1,10000) AS i
+WITH i, toInteger(rand() * 100) + 1 AS userId, toInteger(rand() * 100) + 1 AS productId
+MATCH (u:User {id: userId}), (p:Product {id: productId})
+CREATE (u)-[:BOUGHT]->(p);
