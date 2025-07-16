@@ -28,16 +28,11 @@ ORDER BY ProductsBought DESC
 LIMIT 10;
 
 
-
-
-
 ## 🙌 Why I Recommend Neo4j
 
 Neo4j made it easy to:
-<ul>
-<li>Scale test data quickly
 
-<li>Visualize graph structures
+- Scale test data quickly  
+- Visualize graph structures  
+- Learn graph-based thinking  
 
-<li>Learn graph-based thinking
-</ul>
