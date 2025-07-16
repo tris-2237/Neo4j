@@ -27,6 +27,10 @@ RETURN u.id AS User, COUNT(p) AS ProductsBought
 ORDER BY ProductsBought DESC
 LIMIT 10;
 
+
+
+
+
 ## 🙌 Why I Recommend Neo4j
 
 Neo4j made it easy to:
