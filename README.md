@@ -19,6 +19,16 @@ In many real-life systems — like e-commerce, social media, or recommender syst
 - Neo4j Aura handles complex graph structures **surprisingly well**, even on the free tier.
 - Perfect for **prototyping** relationship-heavy use cases.
 
+
+## 🙌 Why I Recommend Neo4j
+
+Neo4j made it easy to:
+
+- Scale test data quickly  
+- Visualize graph structures  
+- Learn graph-based thinking
+  
+
 ## 🧾 Sample Query
 
 ```cypher
@@ -27,12 +37,4 @@ RETURN u.id AS User, COUNT(p) AS ProductsBought
 ORDER BY ProductsBought DESC
 LIMIT 10;
 
-
-## 🙌 Why I Recommend Neo4j
-
-Neo4j made it easy to:
-
-- Scale test data quickly  
-- Visualize graph structures  
-- Learn graph-based thinking  
 
